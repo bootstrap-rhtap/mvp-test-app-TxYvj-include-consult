@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: rhtap-demo-component-wsjm
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/bootstraprhtap/rhtap-demo-dev-kqul-tenant/mvp-test-app/rhtap-demo-component-wsjm@sha256:ae4c72aa015e60770a6e34a4925eca044cbb3945267c048c4ca00f0c8895fbc8
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
