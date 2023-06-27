@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: rhtap-demo-component-wsjm
     app.kubernetes.io/part-of: mvp-test-app
-  name: rhtap-demo-component-wsjmwlco
+  name: rhtap-demo-component-wsjmvyxz
 spec:
   port:
     targetPort: 8081
