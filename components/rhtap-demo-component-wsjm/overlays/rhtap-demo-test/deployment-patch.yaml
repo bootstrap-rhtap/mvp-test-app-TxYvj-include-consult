@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: rhtap-demo-component-wsjm
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - env:
+        - name: var_name
+          value: test
+        image: quay.io/bootstraprhtap/rhtap-demo-dev-kqul-tenant/mvp-test-app/rhtap-demo-component-wsjm@sha256:ae4c72aa015e60770a6e34a4925eca044cbb3945267c048c4ca00f0c8895fbc8
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
